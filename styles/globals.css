@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
 
 * {
   margin: 0;
@@ -8,6 +9,11 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
+}
+
+.imghome {
+  display: inline-flex;
+  align-items: center;
 }
 
 .gradient-01 {
@@ -104,4 +110,23 @@
 
   background: #65c4fa;
   filter: blur(150px);
+}
+
+.black_btn {
+  @apply rounded-full border border-black bg-gray-200 py-1.5 px-5 bg-opacity-0 text-white transition-all hover:shadow-glowMore hover:bg-gray-100 hover:text-black text-center text-sm flex items-center justify-center;
+}
+
+.red_btn {
+  @apply rounded-full shadow-glowLight border border-red-300  bg-clip-text bg-gradient-to-r from-red-600 via-pink-500 to-amber-400 py-1.5 px-5 text-5xl transition-all hover:shadow-glowMore hover:from-red-700 hover:via-pink-500 hover:to-amber-400 text-transparent text-center text-sm flex items-center justify-center;
+}
+
+.dropdown {
+  @apply absolute left-0 top-full px-5 w-full rounded-lg bg-opacity-0 opacity-70 flex flex-col gap-4 justify-center items-start;
+}
+
+.dropdown_link {
+  @apply text-sm text-gray-700 hover:text-gray-500 font-medium;
+}
+.toggle_btn {
+  @apply rounded-full bg-gradient-to-br from-slate-900 to-cyan-700 py-1.5 px-5 text-white transition-all hover:shadow-glowDark hover:bg-blue-400 hover:text-black text-center text-sm flex items-center justify-center;
 }
