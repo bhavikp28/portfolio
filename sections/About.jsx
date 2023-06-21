@@ -7,7 +7,7 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="about">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
@@ -24,12 +24,12 @@ const About = () => (
       >
         <span className="font-extrabold text-white">Bhavik</span> is a new
         graduate from Rutgers University,
-        currently based in New Jersey and is always keen to learn technologies,
-        frameworks, programming languages along with being passionate about is passionate{' '}
+        currently based in New Jersey and is always keen to learn new technologies,
+        frameworks, and programming languages along with being passionate about{' '}
         <span className="font-extrabold text-white">
-          creating and developing new ideas
+          creating and innovating the ideas
         </span>{' '}
-        of today. Let's{' '}
+        of tomorrow. Let's{' '}
         <span className="font-extrabold text-white">explore</span> more by scrolling
         down
       </motion.p>

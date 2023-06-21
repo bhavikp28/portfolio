@@ -1,6 +1,7 @@
-'use client'
+'use client';
+
 import { motion } from 'framer-motion';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
@@ -15,37 +16,39 @@ const Navbar = () => {
       className={`${styles.xPaddings} py-8 relative`}
     >
       <div className="absolute w-[70%] inset-0 gradient-02" />
-      <div className={`${styles.innerWidth} hidden sm:flex mx-auto justify-between gap-1`}>
-        <img
-          src="/logoweb.png"
-          alt="Search"
-          className="w-[50px] h-[50px] object-contain"
-        />
-        <a href="https:google.com" className="black_btn z-10">
+      <div className={`${styles.innerWidth} hidden sm:flex mx-auto justify-between gap-0.5`}>
+        <a href="#hero" className="z-10">
+          <img
+            src="/logoweb.png"
+            alt="Search"
+            className="w-[60px] h-[60px] object-contain"
+          />
+        </a>
+        <a href="#about" className="black_btn z-10">
           About
         </a>
-        <a href="https:google.com" className="black_btn z-10">
+        <a href="#explore" className="black_btn z-10">
           Portfolio
         </a>
-        <a href="https:google.com" className="black_btn z-10">
+        <a href="#getstarted" className="black_btn z-10">
           Resume
         </a>
         <div className="flex justify-between gap-3">
-          <a href="https:google.com" className="imghome">
+          <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome">
             <img
               src="/linkedin.png"
               alt="Linkedin"
               className="w-[30px] h-[30px] object-contain z-10 hover:shadow-glowDark"
             />
           </a>
-          <a href="https:google.com" className="imghome">
+          <a href="https://github.com/bhavikp28" className="imghome">
             <img
               src="/github.svg"
               alt="github"
               className="w-[30px] h-[30px] object-contain z-10 hover:shadow-glowDark"
             />
           </a>
-          <a href="https:google.com" className="red_btn z-10">
+          <a href="mailto:patelbhavik063@gmail.com" className="red_btn z-10">
             Lets Work
           </a>
         </div>
@@ -60,21 +63,21 @@ const Navbar = () => {
         {toggleDropdown && (
           <div className="dropdown z-20">
             <a
-              href="https:google.com"
+              href="#about"
               className="toggle_btn"
               onClick={() => setToggleDropdown(false)}
             >
               About
             </a>
             <a
-              href="https:google.com"
+              href="#explore"
               className="toggle_btn"
               onClick={() => setToggleDropdown(false)}
             >
               Portfolio
             </a>
             <a
-              href="https:google.com"
+              href="#getstarted"
               className="toggle_btn "
               onClick={() => setToggleDropdown(false)}
             >
@@ -83,17 +86,17 @@ const Navbar = () => {
           </div>
         )}
         <div className="flex justify-between gap-5">
-          <a href="https:google.com" className="red_btn z-10 ">
+          <a href="mailto:patelbhavik063@gmail.com" className="red_btn z-10 ">
             Lets Work
           </a>
-          <a href="https:google.com" className="imghome">
+          <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome">
             <img
               src="/linkedin.png"
               alt="Linkedin"
               className="w-[25px] h-[25px] object-contain z-10 hover:shadow-glowDark"
             />
           </a>
-          <a href="https:google.com" className="imghome">
+          <a href="https://github.com/bhavikp28" className="imghome">
             <img
               src="/github.svg"
               alt="github"

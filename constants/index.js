@@ -1,28 +1,33 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/blog.jpg',
+    title: 'Modern Blog',
+    proj: 'https://modernblog-ten.vercel.app/',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/beach.jpg',
+    title: 'Weather Forecast',
+    proj: 'https://weatherapp-c7360.web.app/',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'TBA',
+    proj: 'https:google.com',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'TBA',
+    proj: 'https:google.com',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'TBA',
+    proj: 'https:google.com',
   },
 ];
 
@@ -70,19 +75,13 @@ export const insights = [
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
-  },
-  {
     name: 'linkedin',
-    url: '/linkedin.svg',
+    url: '/linkedin.png',
+    redirect: 'https://www.linkedin.com/in/bhavikpatel28/',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'github',
+    url: '/github.svg',
+    redirect: 'https://github.com/bhavikp28',
   },
 ];
