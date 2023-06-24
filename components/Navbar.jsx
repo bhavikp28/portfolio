@@ -35,14 +35,14 @@ const Navbar = () => {
           Resume
         </a>
         <div className="flex justify-between gap-3">
-          <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome">
+          <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome" target="_blank" rel="noreferrer">
             <img
               src="/linkedin.png"
               alt="Linkedin"
               className="w-[30px] h-[30px] object-contain z-10 hover:shadow-glowDark"
             />
           </a>
-          <a href="https://github.com/bhavikp28" className="imghome">
+          <a href="https://github.com/bhavikp28" className="imghome" target="_blank" rel="noreferrer">
             <img
               src="/github.svg"
               alt="github"
@@ -90,14 +90,14 @@ const Navbar = () => {
           <a href="mailto:patelbhavik063@gmail.com" className="red_btn z-10 ">
             Lets Work
           </a>
-          <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome">
+          <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome" target="_blank" rel="noreferrer">
             <img
               src="/linkedin.png"
               alt="Linkedin"
               className="w-[25px] h-[25px] object-contain z-10 hover:shadow-glowDark"
             />
           </a>
-          <a href="https://github.com/bhavikp28" className="imghome">
+          <a href="https://github.com/bhavikp28" className="imghome" target="_blank" rel="noreferrer">
             <img
               src="/github.svg"
               alt="github"

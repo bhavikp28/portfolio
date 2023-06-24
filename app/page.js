@@ -4,7 +4,7 @@ import { About, Explore, Feedback, GetStarted, Hero } from '../sections';
 const Page = () => (
   <div className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 z-0">
     <Navbar />
-
+    {/* asda */}
     <div className="overflow-hidden">
       <Hero />
       <div className="relative">
