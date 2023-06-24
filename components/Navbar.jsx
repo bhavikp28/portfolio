@@ -14,6 +14,7 @@ const Navbar = () => {
       initial="hidden"
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
+      id="nav"
     >
       <div className="absolute w-[70%] inset-0 gradient-02" />
       <div className={`${styles.innerWidth} hidden sm:flex mx-auto justify-between gap-0.5`}>

@@ -1,33 +1,38 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/blog.jpg',
-    title: 'Modern Blog',
-    proj: 'https://modernblog-ten.vercel.app/',
-  },
-  {
-    id: 'world-2',
     imgUrl: '/beach.jpg',
     title: 'Weather Forecast',
     proj: 'https://weatherapp-c7360.web.app/',
+    code: 'https://github.com/bhavikp28/weatherapp',
+  },
+  {
+    id: 'world-2',
+    imgUrl: '/future.jpg',
+    title: 'Chat GPT',
+    proj: 'https://gpt-clone-six.vercel.app/',
+    code: 'https://github.com/bhavikp28/GPT-Clone',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'TBA',
-    proj: 'https:google.com',
+    imgUrl: '/runner.jpg',
+    title: 'Fitness App',
+    proj: 'https://fitness528.netlify.app/',
+    code: 'https://github.com/bhavikp28/FitnessApp',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'TBA',
-    proj: 'https:google.com',
+    imgUrl: '/blog.jpg',
+    title: 'Modern Blog',
+    proj: 'https://modernblog-ten.vercel.app/',
+    code: 'https://github.com/bhavikp28/modernblog',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'TBA',
-    proj: 'https:google.com',
+    imgUrl: '/mall.jpg',
+    title: 'E-commerce',
+    proj: 'https://ecommerce528.netlify.app/',
+    code: 'https://github.com/bhavikp28/ecommerce',
   },
 ];
 

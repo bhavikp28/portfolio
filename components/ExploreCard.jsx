@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, title, proj, index, active, handleHover }) => (
+const ExploreCard = ({ id, imgUrl, title, proj, code, index, active, handleHover }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -17,7 +17,7 @@ const ExploreCard = ({ id, imgUrl, title, proj, index, active, handleHover }) =>
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
-      onClick={() => { window.location.href = proj; }}
+      onClick={() => { window.open(proj, '_blank'); }}
     />
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] text-white absolute z-0 lg:bottom-20 py-5 lg:rotate-[-90deg] lg:origin-[0,0]">
@@ -25,22 +25,19 @@ const ExploreCard = ({ id, imgUrl, title, proj, index, active, handleHover }) =>
       </h3>
     ) : (
       <div
-        onClick={() => { window.location.href = proj; }}
+        onClick={() => { window.open(code, '_blank'); }}
         className="absolute bottom-0 p-8 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]"
       >
         <div
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-1/2 h-1/2 object-contain"
+            src="/github.svg"
+            alt="github"
+            className="w-1/2 h-1/2 object-contain hover:shadow-glowDark"
 
           />
         </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
-          Enter
-        </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
