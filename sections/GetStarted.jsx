@@ -50,7 +50,7 @@ const GetStarted = () => (
             />
           </p>
           <br />
-          <p className="mt-[8px] font-normal sm:text-[20px] text-[13px] sm:leading-[22.68px] grid grid-cols-3 gap-10 leading-[.68px] text-white mb-10"> 
+          <p className="mt-[8px] font-normal sm:text-[20px] text-[13px] sm:leading-[22.68px] grid grid-cols-3 gap-10 leading-[.68px] text-white mb-10">
             <img
               src="/icons/python.svg"
               className="w-12 h-12 object-contain hover:shadow-glowLight"
@@ -124,9 +124,9 @@ const GetStarted = () => (
         <div className="mt-[31px] flex flex-col max-w-[600px] h-[1000px]">
           <Iframe
             src="/resume.pdf"
-            height="sm:h-[765px] h-[640px]"
+            height="sm:h-[830px] h-[640px]"
             overflow="hidden"
-            className="sm:h-[765px] h-[640px]"
+            className="sm:h-[830px] h-[640px]"
           />
         </div>
       </motion.div>
