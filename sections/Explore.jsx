@@ -20,14 +20,12 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Projects |" textStyles="text-center" />
+        <TypingText title="Projects" textStyles="text-center mr-5" />
         <TitleText
           title={<>Choose the project you wish <br className="md:block hidden" /> to explore</>}
           textStyles="text-center"
         />
-        <p className="font-normal text-center text-[16px] leading-[20.16px] text-white">
-          Click the github icon to see source code
-        </p>
+        <TypingText title="Click the github icon to see source code" textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard

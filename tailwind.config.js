@@ -19,6 +19,7 @@ module.exports = {
       boxShadow: {
         dark: '0 10px 15px -3px rgba(255, 255, 255, 0.1), 0 4px 6px -2px rgba(255, 255, 255, 0.05)',
         glowDark: '0px 2px 25px -4px #427bff',
+        glowGreen: '0px 2px 25px -4px #42ff5b',
         glowLight: '0px 0px 10px 0px #e05912',
         glowMore: '0px 0px 20px 2px #e05912',
       },
