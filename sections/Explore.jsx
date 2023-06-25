@@ -25,7 +25,7 @@ const Explore = () => {
           title={<>Choose the project you wish <br className="md:block hidden" /> to explore</>}
           textStyles="text-center"
         />
-        <TypingText title="Click the github icon to see source code" textStyles="text-center" />
+        <TypingText title="Click the github icon to see source code & Please allow time for deployment to fully start up" textStyles="text-center" />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
