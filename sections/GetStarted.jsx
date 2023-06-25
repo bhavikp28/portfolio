@@ -68,7 +68,7 @@ const GetStarted = () => (
               className="w-12 h-12 object-contain hover:shadow-glowLight"
             />
             <img
-              src="/icons/c.svg"
+              src="/icons/C.svg"
               className="w-12 h-12 object-contain hover:shadow-glowLight"
             />
             <img
