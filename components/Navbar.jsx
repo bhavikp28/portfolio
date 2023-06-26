@@ -50,7 +50,7 @@ const Navbar = () => {
             />
           </a>
           <a href="mailto:patelbhavik063@gmail.com" className="red_btn z-10">
-            Lets Work
+            Let's Work
           </a>
         </div>
       </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
         )}
         <div className="flex justify-between gap-5">
           <a href="mailto:patelbhavik063@gmail.com" className="red_btn z-10 ">
-            Lets Work
+            Let's Work
           </a>
           <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome" target="_blank" rel="noreferrer">
             <img

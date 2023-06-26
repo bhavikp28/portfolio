@@ -18,7 +18,7 @@ const GetStarted = () => (
       className={`${styles.innerWidth} hidden mx-auto sm:flex lg:flex-row justfiy-between gap-16`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn('right', 'tween', 0.1, 1)}
         className="flex-[0.5] lg:max-w-[500px] flex justify-between flex-col sm:p-8 p-4 relative"
       >
         <div className="feedback-gradient" />
@@ -123,7 +123,7 @@ const GetStarted = () => (
       >
         <div className="mt-[31px] flex flex-col max-w-[600px] h-[1000px]">
           <Iframe
-            src="/resume.pdf"
+            src="/Patel_Bhavik_Resume.pdf"
             height="sm:h-[830px] h-[640px]"
             overflow="hidden"
             className="sm:h-[830px] h-[640px]"
@@ -132,17 +132,13 @@ const GetStarted = () => (
       </motion.div>
     </motion.div>
     <motion.div
-      variants={staggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} sm:hidden mx-auto flex lg:flex-row justify-center`}
+      variants={fadeIn('left', 'tween', 0.2, 1)}
+      className="flex-[0.75] flex justify-center flex-col"
     >
-      <div className="mt-[31px] flex flex-col ">
+      <div className="sm:hidden mt-[31px] flex flex-col max-w-[600px] h-[1000px]">
         <Iframe
-          src="/resume.pdf"
-          height="445"
-          overflow="hidden"
+          src="/Patel_Bhavik_Resume.pdf"
+          className="h-[500px]"
         />
       </div>
     </motion.div>

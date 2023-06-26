@@ -32,11 +32,11 @@ const Feedback = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.20 }}
+        viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col justify-center gap-20`}
       >
         <motion.div
-          variants={fadeIn('right', 'tween', 0.2, 1)}
+          variants={fadeIn('right', 'tween', 0.1, 1)}
           className="flex-[0.5] lg:max-w-[370px] flex justify-top flex-col sm:p-8 p-4 relative"
         >
           <div className="feedback-gradient" />
@@ -54,7 +54,7 @@ const Feedback = () => {
           />
         </motion.div>
         <motion.div
-          variants={fadeIn('left', 'tween', 0.2, 1)}
+          variants={fadeIn('left', 'tween', 0.1, 1)}
           className="flex-[0.5] lg:max-w-[700px] flex justify-start flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-blue-500"
         >
           <form ref={form} onSubmit={sendEmail} className="mt-6">
