@@ -14,7 +14,7 @@ export const navVariants = {
     transition: {
       type: 'spring',
       stiffness: 80,
-      delay: 0.5,
+      delay: 0.15,
     },
   },
 };
@@ -81,8 +81,8 @@ export const textVariant2 = {
     opacity: 1,
     y: 0,
     transition: {
-      type: 'tween',
-      ease: 'easeIn',
+      type: 'spring',
+      delay: 0.15,
     },
   },
 };
@@ -117,7 +117,7 @@ export const planetVariants = (direction) => ({
     transition: {
       type: 'spring',
       duration: 1.8,
-      delay: 0.5,
+      delay: 0.15,
     },
   },
 });
@@ -155,7 +155,7 @@ export const footerVariants = {
     transition: {
       type: 'spring',
       stiffness: 80,
-      delay: 0.5,
+      delay: 0.15,
     },
   },
 };

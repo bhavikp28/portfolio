@@ -15,7 +15,7 @@ const ExploreCard = ({ id, imgUrl, title, proj, code, index, active, handleHover
   >
     <img
       src={imgUrl}
-      alt="planet-04"
+      alt="graphic"
       className="absolute w-full h-full object-cover rounded-[24px]"
       onClick={() => { window.open(proj, '_blank'); }}
     />
