@@ -26,7 +26,7 @@ const Footer = () => (
             </h4>
           </a>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Welcome To the Future
+            Bhavik Patel
           </p>
 
           <div className="flex gap-4">

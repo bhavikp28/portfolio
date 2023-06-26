@@ -44,9 +44,6 @@ const Feedback = () => {
             <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white mb-4">
               Contact Me
             </h4>
-            <p className="mt-[8px] font-normal sm:text-[20px] text-[12px] sm:leading-[22.68px] leading-[.68px] text-white mb-10">
-              "A simple Hello can lead to a million things"
-            </p>
           </div>
           <img
             src="/contactshake.png"

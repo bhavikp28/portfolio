@@ -5,7 +5,7 @@ import Iframe from 'react-iframe';
 import styles from '../styles';
 
 import { TitleText } from '../components';
-import { staggerContainer, fadeIn} from '../utils/motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`} id="getstarted">
@@ -89,7 +89,7 @@ const GetStarted = () => (
             />
           </p>
           <br />
-          <p className="mt-[8px] font-normal sm:text-[20px] text-[13px] sm:leading-[22.68px] grid grid-cols-3 gap-10 leading-[.68px] text-white mb-10"> 
+          <p className="mt-[8px] font-normal sm:text-[20px] text-[13px] sm:leading-[22.68px] grid grid-cols-3 gap-10 leading-[.68px] text-white mb-10">
             <img
               src="/icons/git.svg"
               className="w-12 h-12 object-contain hover:shadow-glowGreen"
