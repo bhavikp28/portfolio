@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero } from '../sections';
+import { About, Explore, Feedback, Hero } from '../sections';
 
 const Page = () => (
   <div className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 z-0">
@@ -13,7 +13,6 @@ const Page = () => (
         <Explore />
       </div>
       <div className="relative">
-        <GetStarted />
         <div className="gradient-04 z-0" />
       </div>
       <div className="">

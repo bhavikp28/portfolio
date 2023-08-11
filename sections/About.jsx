@@ -22,8 +22,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.15, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Bhavik</span> is a new
-        graduate from Rutgers University,
+        <span className="font-extrabold text-white">Bhavik</span> is
         currently based in New Jersey and is always keen to learn new technologies,
         frameworks, and programming languages along with being passionate about{' '}
         <span className="font-extrabold text-white">
