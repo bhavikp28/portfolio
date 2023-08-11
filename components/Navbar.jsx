@@ -31,9 +31,6 @@ const Navbar = () => {
         <a href="#explore" className="black_btn z-10">
           Portfolio
         </a>
-        <a href="#getstarted" className="black_btn z-10">
-          Resume
-        </a>
         <div className="flex justify-between gap-3">
           <a href="https://www.linkedin.com/in/bhavikpatel28/" className="imghome" target="_blank" rel="noreferrer">
             <img
@@ -76,13 +73,6 @@ const Navbar = () => {
               onClick={() => setToggleDropdown(false)}
             >
               Portfolio
-            </a>
-            <a
-              href="#getstarted"
-              className="toggle_btn "
-              onClick={() => setToggleDropdown(false)}
-            >
-              Resume
             </a>
           </div>
         )}
